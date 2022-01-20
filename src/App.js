@@ -4,13 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Route, Routes, Navigate } from 'react-router-dom'
 
-import NavComponent from './components/NavComponent'
+import NavTop from './components/NavTop'
+import NavSide from './components/NavSide'
 
 
 function App() {
   return (
     <React.Fragment>
-      <NavComponent />
+      <NavTop />
+      <NavSide />
   
       <Routes>
         {/* components go here */}
