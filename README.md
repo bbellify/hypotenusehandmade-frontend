@@ -2,22 +2,21 @@
 ## bitcoin/lightning native small business web app
 
 ### MVP
-- [ ] 
+- [ ] first pass at design for web store - may need to migrate to a different build for the real version
+- [ ] mobile optimized with mobile-specific navigation
 
 - User Accounts 
     - [ ] users can register new account
+    - [ ] cart saved as a session for x number of days
 
 - Products
-    - [ ] 
-    - [ ] 
+    - [ ] nav on side includes category headers, sub-categories nested
 
 - Checkout
     - [ ] BTCPayServer
 
 #### Stretch
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] stretch goals here
 
 
 ### Set Up
