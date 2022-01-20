@@ -1,6 +1,7 @@
 import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 import { Route, Routes, Navigate } from 'react-router-dom'
 
@@ -12,7 +13,11 @@ function App() {
   return (
     <React.Fragment>
       <NavTop />
-      <NavSide />
+      <div className='d-flex'>
+        <NavSide />
+        <h1>hypotenuse handmade</h1>
+
+      </div>
   
       <Routes>
         {/* components go here */}

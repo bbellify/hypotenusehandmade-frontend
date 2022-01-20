@@ -18,7 +18,7 @@ function NavTop(props) {
 
     return (
         
-        <Navbar className='d-flex justify-content-between px-3 ' >
+        <Navbar className='d-flex justify-content-between px-3 py-3 border-bottom' >
         
             <Navbar.Brand onClick={() => linkClick('/')} className='p-0 ms-4'>hh</Navbar.Brand>
             
