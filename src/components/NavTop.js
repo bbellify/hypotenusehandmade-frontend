@@ -22,7 +22,7 @@ function NavTop(props) {
         
             <Navbar.Brand onClick={() => linkClick('/')} className='p-0 ms-4'>hh</Navbar.Brand>
             
-            <p className='fst-italic m-0 align-self-center'>it is difficult to walk at one and the same time many paths of life</p>
+            <p className='fst-italic fw-lighter m-0'>it is difficult to walk at one and the same time many paths of life</p>
             
             <div className='d-flex align-items-baseline m-0 me-2'>
                 <a href='/' className='fs-4' style={{ color: 'black'}}><i className='bi bi-person px-2'></i></a>
