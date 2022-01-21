@@ -7,15 +7,16 @@ import { Route, Routes, Navigate } from 'react-router-dom'
 
 import NavTop from './components/NavTop'
 import NavSide from './components/NavSide'
-
+import Home from './components/Home'
 
 function App() {
   return (
     <React.Fragment>
+      
       <NavTop />
       <div className='d-flex'>
         <NavSide />
-        <h1>hypotenuse handmade</h1>
+        <Home />
 
       </div>
   

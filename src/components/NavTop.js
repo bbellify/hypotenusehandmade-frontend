@@ -25,8 +25,8 @@ function NavTop(props) {
 
 
     return (
-        <div>
-            <Navbar className='d-flex justify-content-between px-3 py-1 border-bottom' >
+        <div style={{backgroundColor: '#F9F6F1' }}>
+            <Navbar className='d-flex justify-content-between px-3 py-1' >
             
                 <Navbar.Brand onClick={() => linkClick('/')} className='p-0 ms-2 m-0'>hh</Navbar.Brand>
                 
@@ -37,11 +37,6 @@ function NavTop(props) {
                     <a href='/' className='fs-4 m-0' style={{ color: 'black'}}><i className='bi bi-bag px-3'></i></a>
                     <i className='bi bi-list d-sm-none fs-1 m-0' onClick={handleOpen}></i>
                 </div>
-
-
-                
-
-
 
                 {/* 
 
