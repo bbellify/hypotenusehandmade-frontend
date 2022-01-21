@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 
 import Navbar from 'react-bootstrap/Navbar'
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Modal from 'react-bootstrap/Modal'
-import Button from 'react-bootstrap/Button'
+
 
 import { useNavigate } from 'react-router-dom'
 
@@ -28,9 +26,9 @@ function NavTop(props) {
 
     return (
         <div>
-            <Navbar className='d-flex justify-content-between px-3 py-3 border-bottom' >
+            <Navbar className='d-flex justify-content-between px-3 py-1 border-bottom' >
             
-                <Navbar.Brand onClick={() => linkClick('/')} className='p-0 ms-4 m-0'>hh</Navbar.Brand>
+                <Navbar.Brand onClick={() => linkClick('/')} className='p-0 ms-2 m-0'>hh</Navbar.Brand>
                 
                 <p className='fst-italic fw-lighter m-0 d-none d-sm-block'>it is difficult to walk at one and the same time many paths of life</p>
                 
@@ -67,29 +65,28 @@ function NavTop(props) {
                 */}
                     
             </Navbar>
-
                 <Modal
                     show={show}
-                    onHide={handleClose}
                     fullscreen
-                    style={{ opacity: '.85'}}
+                    style={{ opacity: '.9'}}
                     >
-                    <Modal.Header closeButton>
-                        <Modal.Title id="contained-modal-title-vcenter">
-                            Modal heading
-                        </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                        <h4>Centered Modal</h4>
-                        <p>
-                        Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                        dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                        consectetur ac, vestibulum at eros.
-                        </p>
-                    </Modal.Body>
-                    
+                    <Modal.Header className='d-flex flex-row-reverse py-2 px-4'><i onClick={handleClose}class='fs-4 bi bi-x-lg m-0'></i></Modal.Header>
+                    <Modal.Body className='d-flex'>
+                        <div className='col-5'>
+                            <p className='fs-4'>Items</p>
+                            <p>tops</p>
+                            <p>bottoms</p>
+                            <p>dresses</p>
+                            <p>hats and hankies</p>
+                        </div>
+                        <div className='col-5'>
+                            <p className='fs-4'>Categories</p>
+                            <p>Babies</p>
+                            <p>Women</p>
+                            <p>Men</p>
+                        </div>
+                    </Modal.Body>    
                 </Modal>
-
         </div>
             
     )
