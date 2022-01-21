@@ -25,7 +25,7 @@ function NavTop(props) {
 
 
     return (
-        <div style={{backgroundColor: '#F9F6F1' }}>
+        <div className='position-fixed w-100' style={{backgroundColor: '#F9F6F1' }}>
             <Navbar className='d-flex justify-content-between px-3 py-1' >
             
                 <Navbar.Brand onClick={() => linkClick('/')} className='p-0 ms-2 m-0'>hh</Navbar.Brand>

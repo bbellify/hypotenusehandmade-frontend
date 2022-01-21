@@ -7,19 +7,17 @@ import { Route, Routes, Navigate } from 'react-router-dom'
 
 import NavTop from './components/NavTop'
 import NavSide from './components/NavSide'
-import Home from './components/Home'
+import Content from './components/Content'
 
 function App() {
   return (
     <React.Fragment>
-      
-      <NavTop />
-      <div className='d-flex'>
+      <div className='position-fixed'>
+        <NavTop />
         <NavSide />
-        <Home />
-
-      </div>
   
+      </div>
+        <Content />
       <Routes>
         {/* components go here */}
 

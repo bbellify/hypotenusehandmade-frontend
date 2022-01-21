@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 function NavSide(props) {
 
     return (
-        <div className='col-3 col-lg-2 d-none d-sm-block'>
+        <div className='col-3 col-lg-2 d-none d-sm-inline-block border border-warning position-fixed pt-5'>
             <Container className='d-flex-column ps-3 my-5'>
                 <p className='fs-4'>Items</p>
                     <p>tops</p>
