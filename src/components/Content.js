@@ -8,7 +8,7 @@ function Content(props) {
 
     return (
         <div className='d-flex pt-5'>
-            <div className='col-3 col-lg-2'></div>
+            <div className='col-3 col-lg-2 d-none d-sm-block '></div>
         
             <Routes>
                 <Route path={'/'} element={<Home />} />
