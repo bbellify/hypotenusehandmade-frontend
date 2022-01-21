@@ -1,9 +1,5 @@
 import React from 'react';
 
-import men from '../../assets/men.jpg'
-import crib from '../../assets/crib.jpg'
-import women from '../../assets/women.jpg'
-
 function Home(props) {
 
     return (
@@ -12,14 +8,14 @@ function Home(props) {
                 <h2 className='px-1'>hypotenuse handmade</h2>
                 <div className='mt-4 d-flex' style={{backgroundColor: '' }}>
                     <div className='col-6'>
-                        <img src={crib} className='p-1'style={{width: '50%'}} alt='crib'/>
-                        <img src={women} className='p-1'style={{width: '50%'}} alt='folding'/>
-                        <img src={men} className='p-1'style={{width: '100%'}} alt='chair'/>
+                        <img src={'https://images.pexels.com/photos/4964290/pexels-photo-4964290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} className='p-1'style={{width: '50%'}} alt='crib'/>
+                        <img src={'https://images.pexels.com/photos/5582933/pexels-photo-5582933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} className='p-1'style={{width: '50%'}} alt='women'/>
+                        <img src={'https://images.pexels.com/photos/5988920/pexels-photo-5988920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} className='p-1'style={{width: '100%'}} alt='men'/>
                     </div>
                     <div className='col-6'>
-                        <img src={crib} className='p-1'style={{width: '100%'}} alt='crib'/>
-                        <img src={women} className='p-1'style={{width: '50%'}} alt='folding'/>
-                        <img src={men} className='p-1'style={{width: '50%'}} alt='chair'/>
+                        <img src={'https://images.pexels.com/photos/4964290/pexels-photo-4964290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} className='p-1'style={{width: '100%'}} alt='crib'/>
+                        <img src={'https://images.pexels.com/photos/5582933/pexels-photo-5582933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} className='p-1'style={{width: '50%'}} alt='women'/>
+                        <img src={'https://images.pexels.com/photos/5988920/pexels-photo-5988920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} className='p-1'style={{width: '50%'}} alt='men'/>
                     </div>
                 </div>
             </div>
