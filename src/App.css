@@ -2,3 +2,32 @@ body {
     background-color: #F9F6F1;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: 600;
+    color: black
+}
+
+
+a.active {
+    font-weight: 600;
+}
+
+.img_description {
+    position: absolute;
+    visibility: hidden;
+}
+
+.img_mask:hover .img_img {
+    opacity: 45%;
+}
+
+.img_mask:hover .img_description {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
