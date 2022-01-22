@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import Navbar from 'react-bootstrap/Navbar'
 import Modal from 'react-bootstrap/Modal'
-
-
-import { useNavigate } from 'react-router-dom'
-
 
 
 function NavTop(props) {
@@ -15,19 +12,15 @@ function NavTop(props) {
     const handleOpen = () => setShow(true)
     const handleClose = () => setShow(false)
     
-    const navigate = useNavigate()
-
-    const linkClick = (where) => {
-        navigate(where)
-    }
-
-
 
     return (
-        <div className='position-fixed w-100' style={{backgroundColor: '#F9F6F1', zIndex: 5 }}>
+        <div className='position-fixed w-100' style={{backgroundColor: '#F9F6F1', zIndex: 1 }}>
             <Navbar className='d-flex justify-content-between px-3 py-1' >
             
-                <Navbar.Brand onClick={() => linkClick('/')} className='p-0 ms-2 m-0'>hh</Navbar.Brand>
+                <Link to={'/'}>
+                    <Navbar.Brand className='p-0 ms-2 m-0'>hh</Navbar.Brand>
+                </Link>
+                
                 
                 <p className='fst-italic fw-lighter m-0 d-none d-sm-block'>it is difficult to walk at one and the same time many paths of life</p>
                 

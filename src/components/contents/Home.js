@@ -8,7 +8,7 @@ function Home(props) {
 
 
     return (
-        <div className='border position-absolute text-center text-sm-start p-3' style={{backgroundColor: '#F4ECE1', height: '1000px', zIndex: -1 }}>
+        <div className='border position-absolute p-3' style={{backgroundColor: '#F4ECE1', height: '1000px' }}>
 
                 <h2 className='px-1 '>hypotenuse handmade</h2>
                 <div className='mt-4 d-flex'>

@@ -3,7 +3,7 @@ import React from 'react';
 function Home(props) {
 
     return (
-        <div className='position-absolute text-center text-sm-start p-3' style={{backgroundColor: '#F4ECE1', height: '1000px', zIndex: -1 }}>
+        <div className='border position-absolute p-3' style={{backgroundColor: '#F4ECE1', height: '1000px' }}>
             <h1 className='w-100'>test</h1>
             <div className='d-flex flex-wrap'>
 

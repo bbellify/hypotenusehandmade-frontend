@@ -10,7 +10,7 @@ function Content(props) {
     return (
         <div className='d-flex pt-5'>
             <div className='col-3 col-lg-2 d-none d-sm-block '></div>
-            <div>
+            <div style={{ zIndex: -1 }}>
                 <Routes>
                     <Route path={'/'} element={<Home />} />
                     <Route path={'/test'} element={<Test />}/>
