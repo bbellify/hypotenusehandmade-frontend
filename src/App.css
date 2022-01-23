@@ -17,7 +17,7 @@ a.active {
     font-weight: 600;
 }
 
-.img_description {
+.img_text {
     position: absolute;
     visibility: hidden;
 }
@@ -26,7 +26,7 @@ a.active {
     opacity: 45%;
 }
 
-.img_mask:hover .img_description {
+.img_mask:hover .img_text {
     visibility: visible;
     opacity: 1;
     z-index: 1;
